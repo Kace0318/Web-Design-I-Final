@@ -1,0 +1,96 @@
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: sandybrown;
+  background-image: url(Images/ktrcolorlogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+nav {
+  display: grid;
+  justify-content: end;
+  background-color: lemonchiffon;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 115%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: brown
+}
+
+nav a:hover {
+  color: rgb(102, 25, 25);
+  background-color: khaki;
+  border-radius: 2rem;
+}
+
+body {
+  background-color: cornsilk;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+main h1 {
+  font-size: 200%;
+  text-decoration: underline;
+  color: brown;
+}
+
+.article-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  max-width: 1000px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: sandybrown;
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer i {
+  font-size: 200%;
+  margin-top: 8px;
+  color: brown;
+}
+
+footer i:hover {
+  color: lemonchiffon;
+}
+
+footer a{
+  color: brown;
+  text-decoration: none;
+}
