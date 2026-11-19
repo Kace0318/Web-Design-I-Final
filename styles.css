@@ -2,18 +2,17 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 2rem 2rem 2rem 2rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   background-color: sandybrown;
-  background-image: url(Images/ktrcolorlogo.png);
+  background-image:url(Images/ktrcolorlogo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center left;;
 }
 
 nav {
-  display: grid;
-  justify-content: end;
+  display: flex;
   background-color: lemonchiffon;
   padding: 1rem;
   border-radius: 2rem;
@@ -23,7 +22,6 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -31,7 +29,7 @@ nav a {
   padding: 0.5rem 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: brown
+  color: brown;
 }
 
 nav a:hover {
@@ -57,19 +55,42 @@ main {
 
 main h1 {
   font-size: 200%;
-  text-decoration: underline;
   color: brown;
+  border-bottom: 2px brown solid;
 }
 
 .article-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  gap: 3rem;
   max-width: 1000px;
   justify-content: center;
   text-align: center;
   margin-top: 2rem;
 }
+
+figcaption {
+  margin: 0.5rem 0 0 1rem
+}
+
+
+.about h1 {
+  margin-top: 2rem;
+  border-bottom: none;
+}
+
+.about h2 {
+  color: brown;
+  margin: 1rem 0rem 2rem 0rem;
+  font-size: 120%;
+  border-bottom: 2px brown solid;
+}
+
+.about ul {
+  margin-bottom: 1rem;
+  margin-left: 3rem
+}
+
 
 footer {
   background-color: sandybrown;
@@ -90,7 +111,7 @@ footer i:hover {
   color: lemonchiffon;
 }
 
-footer a{
+footer a {
   color: brown;
   text-decoration: none;
 }
