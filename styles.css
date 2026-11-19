@@ -91,6 +91,18 @@ figcaption {
   margin-left: 3rem
 }
 
+.article-blocks figure {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.article-blocks{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2rem 2rem 2rem 2rem;
+  font-size: 145%;
+}
 
 footer {
   background-color: sandybrown;
